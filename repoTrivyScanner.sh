@@ -1,6 +1,6 @@
 #!/bin/bash
-source /BP-BASE-SHELL-STEPS/functions.sh
-source /BP-BASE-SHELL-STEPS/log-functions.sh
+source BP-BASE-SHELL-STEPS/functions.sh
+source BP-BASE-SHELL-STEPS/log-functions.sh
 cd  "$WORKSPACE/$CODEBASE_DIR"
 
 if [ -d "reports" ]; then
