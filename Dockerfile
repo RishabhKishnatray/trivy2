@@ -8,8 +8,8 @@ COPY imageTrivyScanner.sh .
 COPY filesystemTrivyScanner.sh .
 COPY repoTrivyScanner.sh .
 
-COPY /BP-BASE-SHELL-STEPS/functions.sh .
-COPY /BP-BASE-SHELL-STEPS/log-functions.sh .
+COPY BP-BASE-SHELL-STEPS/functions.sh .
+COPY BP-BASE-SHELL-STEPS/log-functions.sh .
 
 ENV ACTIVITY_SUB_TASK_CODE BP-TRIVY-TASK
 ENV SLEEP_DURATION 5s
